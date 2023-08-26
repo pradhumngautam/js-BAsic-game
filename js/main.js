@@ -18,7 +18,7 @@ if (playGame){
           :"scissors";
 
         let result =
-          playerOne = Computer
+          playerOne == Computer
            ?"Tie game!"
            :playerOne === "rock" && Computer === "paper"
            ?`playerOne : ${playerOne}\n Computer: ${Computer}\nComputer wins!`
